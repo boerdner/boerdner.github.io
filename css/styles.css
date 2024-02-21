@@ -1,0 +1,136 @@
+body {
+    width: 100%;
+margin:0;
+}
+
+.header {
+    margin: 0;
+    overflow: hidden;
+    padding: 60px;
+    text-align: left;
+    background: #081430;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        overflow: hidden;
+        padding: 40px;
+        text-align: center;
+        background: #081430;
+        color: white;
+        font-size: 22px;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.projects_main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.btn {
+    /* color: #ffffff; */
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: transparent;
+    text-decoration: none;
+    text-align: center;
+    color:black;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+
+.cards_item {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    padding: 1rem;
+    margin: auto;
+}
+
+@media (min-width: 40rem) {
+    .cards_item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards_item {
+        width: 33.3333%;
+    }
+}
+
+.card_text {
+    /* color: #ffffff; */
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card_title {
+    /* color: #ffffff; */
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    /* text-transform: capitalize; */
+    margin: 0px;
+  }
+
+  .card_content {
+    padding: 1rem;
+    /* background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%); */
+  }
+
+  .footer{
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 35px;
+    text-align: center;
+  }
